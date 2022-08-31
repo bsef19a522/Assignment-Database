@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawer_layout"
+    tools:context=".MainActivity2">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/parah"
+            android:layout_width="125dp"
+            android:layout_height="52dp"
+            android:layout_marginEnd="15dp"
+            android:text="Surah"
+            app:layout_constraintEnd_toStartOf="@+id/surah"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="282dp" />
+
+        <Button
+            android:id="@+id/surah"
+            android:layout_width="119dp"
+            android:layout_height="54dp"
+            android:layout_marginEnd="7dp"
+            android:layout_marginBottom="396dp"
+            android:text="Juz"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/parah" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="444dp"
+            android:layout_height="278dp"
+            android:layout_marginBottom="53dp"
+            app:layout_constraintBottom_toTopOf="@+id/parah"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/quran"
+            tools:layout_editor_absoluteX="-19dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id = "@+id/navigationView"
+        app:headerLayout="@layout/header_menu"
+        app:menu="@menu/main_menu"
+        android:fitsSystemWindows="true"
+        android:layout_gravity = "start">
+    </com.google.android.material.navigation.NavigationView>
+
+</androidx.drawerlayout.widget.DrawerLayout>
