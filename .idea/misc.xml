@@ -3,12 +3,17 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/ALI Baba/AndroidStudioProjects/QuranApp1/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/ALI Baba/AndroidStudioProjects/QuranApp1/app/src/main/res/drawable/ic_baseline_assignment_24.xml" value="0.1605" />
+        <entry key="..\:/Users/ALI Baba/AndroidStudioProjects/QuranApp1/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.1605" />
+        <entry key="..\:/Users/ALI Baba/AndroidStudioProjects/QuranApp1/app/src/main/res/layout/activity_juzz_list.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/ALI Baba/AndroidStudioProjects/QuranApp1/app/src/main/res/layout/activity_main.xml" value="0.16" />
         <entry key="..\:/Users/ALI Baba/AndroidStudioProjects/QuranApp1/app/src/main/res/layout/activity_main2.xml" value="0.21" />
         <entry key="..\:/Users/ALI Baba/AndroidStudioProjects/QuranApp1/app/src/main/res/layout/activity_main3.xml" value="0.17074275362318841" />
         <entry key="..\:/Users/ALI Baba/AndroidStudioProjects/QuranApp1/app/src/main/res/layout/activity_main4.xml" value="0.17074275362318841" />
         <entry key="..\:/Users/ALI Baba/AndroidStudioProjects/QuranApp1/app/src/main/res/layout/activity_surah_list.xml" value="0.17074275362318841" />
         <entry key="..\:/Users/ALI Baba/AndroidStudioProjects/QuranApp1/app/src/main/res/layout/activity_surahlist.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/ALI Baba/AndroidStudioProjects/QuranApp1/app/src/main/res/layout/header.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/ALI Baba/AndroidStudioProjects/QuranApp1/app/src/main/res/menu/menu.xml" value="0.20416666666666666" />
       </map>
     </option>
   </component>
